@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stock Analysis Dashboard</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto p-4 md:p-6 lg:p-8">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold text-blue-600 text-center mb-6 md:mb-8 lg:mb-10">
+                Stock Analysis Dashboard
+            </h1>
+
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6 space-y-4">
+                <h2 class="text-xl font-semibold text-gray-800">Select Stock</h2>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input
+                        type="text"
+                        id="stock-input"
+                        placeholder="Enter stock symbol (e.g., AAPL, GOOG, RELI.NS)"
+                        class="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                    <button
+                        id="fetch-data-btn"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded-md py-2 px-4 focus:outline-none focus:shadow-outline"
+                        onclick="fetchStockData()"
+                    >
+                        Fetch Data
+                    </button>
+                    <div id="error-message" class="text-red-500"></div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6 space-y-4">
+                <h2 class="text-xl font-semibold text-gray-800">Stock Overview</h2>
+                <div id="stock-overview" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">Company Name:</p>
+                        <p id="company-name" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">Stock Symbol:</p>
+                        <p id="stock-symbol" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">Country:</p>
+                        <p id="country" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">Market Cap:</p>
+                        <p id="market-cap" class="text-gray-800 font-semibold"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Price and Volume Chart</h2>
+                <div id="price-volume-chart" class="w-full">
+                    </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Technical Indicators</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">RSI:</p>
+                        <p id="rsi" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">MACD:</p>
+                        <p id="macd" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">Signal:</p>
+                        <p id="signal" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">20-Day MA:</p>
+                        <p id="ma20" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">50-Day MA:</p>
+                        <p id="ma50" class="text-gray-800 font-semibold"></p>
+                    </div>
+                    <div class="bg-gray-50 rounded-md p-4">
+                        <p class="text-gray-600 font-medium">100-Day MA:</p>
+                        <p id="ma100" class="text-gray-800 font-semibold"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Stock Recommendation</h2>
+                <div id="recommendation" class="bg-gray-50 rounded-md p-4 text-center">
+                    <p class="text-gray-800 font-semibold">Loading...</p>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">News Sentiment</h2>
+                <div id="news-sentiment" class="bg-gray-50 rounded-md p-4">
+                    <p class="text-gray-800 font-semibold">Loading...</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function fetchStockData() {
+                const stockSymbol = document.getElementById("stock-input").value;
+                const errorMessage = document.getElementById("error-message");
+
+                if (!stockSymbol) {
+                    errorMessage.textContent = "Please enter a stock symbol.";
+                    return;
+                }
+                errorMessage.textContent = ""; // Clear any previous error message
+
+                // Construct the URL for the Flask API
+                const url = `/stock_data?symbol=${encodeURIComponent(stockSymbol)}`;
+
+                // Use the fetch API to get data from the Flask backend
+                fetch(url)
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json(); // Parse the JSON response
+                    })
+                    .then((data) => {
+                        // Update the HTML elements with the received data
+                        updateUI(data);
+                    })
+                    .catch((error) => {
+                        console.error("Error fetching data:", error);
+                        errorMessage.textContent = "Failed to fetch data. Please check the stock symbol and try again.";
+                        // Clear all the fields
+                        document.getElementById("company-name").textContent = "";
+                        document.getElementById("stock-symbol").textContent = "";
+                        document.getElementById("country").textContent = "";
+                        document.getElementById("market-cap").textContent = "";
+                        document.getElementById("rsi").textContent = "";
+                        document.getElementById("macd").textContent = "";
+                        document.getElementById("signal").textContent = "";
+                        document.getElementById("ma20").textContent = "";
+                        document.getElementById("ma50").textContent = "";
+                        document.getElementById("ma100").textContent = "";
+                        document.getElementById("recommendation").textContent = "Loading...";
+                        document.getElementById("news-sentiment").textContent = "Loading...";
+                        // Clear the chart
+                        Plotly.newPlot("price-volume-chart", [], {});
+                    });
+            }
+
+            function updateUI(data) {
+                // Company Overview Section
+                document.getElementById("company-name").textContent = data.overview.company_name;
+                document.getElementById("stock-symbol").textContent = data.overview.symbol;
+                document.getElementById("country").textContent = data.overview.country;
+                document.getElementById("market-cap").textContent = data.overview.market_cap;
+
+                // Technical Indicators Section
+                document.getElementById("rsi").textContent = data.technical_indicators.rsi;
+                document.getElementById("macd").textContent = data.technical_indicators.macd;
+                document.getElementById("signal").textContent = data.technical_indicators.signal;
+                document.getElementById("ma20").textContent = data.technical_indicators.ma20;
+                document.getElementById("ma50").textContent = data.technical_indicators.ma50;
+                document.getElementById("ma100").textContent = data.technical_indicators.ma100;
+
+                // Stock Recommendation Section
+                document.getElementById("recommendation").textContent = data.recommendation;
+                
+                // News Sentiment
+                document.getElementById("news-sentiment").textContent = data.news_sentiment;
+
+                // Price and Volume Chart Section
+                const prices = data.prices;
+                const volumes = data.volumes;
+
+                const fig = make_subplots(rows=2, cols=1, shared_xaxes=True, vertical_spacing=0.06,
+                                        row_heights=[0.7, 0.3])  // Adjust row_heights
+
+                // Candlestick chart for price
+                fig.add_trace(go.Candlestick(x=prices.date,
+                                            open=prices.open,
+                                            high=prices.high,
+                                            low=prices.low,
+                                            close=prices.close,
+                                            name="Price"),
+                            row=1, col=1)
+
+                
+                fig.add_trace(go.Bar(x=volumes.date, y=volumes.volume, name="Volume",
+                                    marker_color='rgba(158,202,225,0.6)',  // Light blue for volume
+                                    ),
+                            row=2, col=1)
+
+                // Update layout for clarity and appearance
+                fig.update_layout(
+                    title={
+                        'text': `${data.overview.company_name} - Price and Volume`,  // Include company name in title
+                        'yanchor': 'top',
+                        'xanchor': 'center',
+                        'y': 0.95,
+                        'x': 0.5,
+                    },
+                    margin=dict(l=20, r=20, t=60, b=20),  // Add some margin
+                    showlegend=False,  // Remove legend
+                    plot_bgcolor='white',  // Set background color to white
+                    xaxis_rangeslider_visible=False, // Remove the range slider
+                )
+
+                
+                fig.update_xaxes(
+                    gridcolor='lightgray',  
+                    tickformat='%Y-%m-%d',  
+                    title_text="Date",  
+                    row=1
+                )
+                fig.update_yaxes(
+                    gridcolor='lightgray',
+                    title_text="Price (USD)",  
+                    row=1
+                )
+                fig.update_xaxes(
+                    gridcolor='lightgray',
+                    tickformat='%Y-%m-%d',
+                    title_text="Date",  
+                    row=2
+                )
+                fig.update_yaxes(
+                    gridcolor='lightgray',
+                    title_text="Volume", 
+                    row=2
+                )
+
+                Plotly.newPlot("price-volume-chart", fig, {responsive: true});
+            }
+        </script>
+    </body>
+</html>

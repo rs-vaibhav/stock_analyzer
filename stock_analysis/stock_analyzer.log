@@ -1,0 +1,800 @@
+<file name=0 path=/Users/vaibhavgupta/stock_analysis/stock_analyzer.log>2025-04-04 02:01:46,123 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:01:46,124 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:01:46,124 - INFO - Scheduler started
+2025-04-04 02:03:56,187 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:03:56,187 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:03:56,187 - INFO - Scheduler started
+2025-04-04 02:03:56,239 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 02:03:56,239 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 02:03:56,240 - INFO -  * Restarting with stat
+2025-04-04 02:03:57,122 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:03:57,122 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:03:57,122 - INFO - Scheduler started
+2025-04-04 02:03:57,138 - WARNING -  * Debugger is active!
+2025-04-04 02:03:57,147 - INFO -  * Debugger PIN: 122-442-868
+2025-04-04 02:04:12,900 - INFO - 127.0.0.1 - - [04/Apr/2025 02:04:12] "[33mGET / HTTP/1.1[0m" 404 -
+</file>
+2025-04-04 02:16:08,904 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:16:08,905 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:16:08,905 - INFO - Scheduler started
+2025-04-04 02:16:08,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 02:16:08,927 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 02:16:08,928 - INFO -  * Restarting with stat
+2025-04-04 02:16:09,795 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:16:09,795 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:16:09,796 - INFO - Scheduler started
+2025-04-04 02:16:09,808 - WARNING -  * Debugger is active!
+2025-04-04 02:16:09,815 - INFO -  * Debugger PIN: 122-442-868
+2025-04-04 02:16:47,746 - INFO - 127.0.0.1 - - [04/Apr/2025 02:16:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-04 02:22:02,355 - INFO -  * Detected change in '/Users/vaibhavgupta/stock_analysis/stock_analyzer.py', reloading
+2025-04-04 02:22:02,489 - INFO -  * Restarting with stat
+2025-04-04 02:22:03,642 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:22:03,642 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:22:03,643 - INFO - Scheduler started
+2025-04-04 02:22:17,670 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:22:17,671 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:22:17,671 - INFO - Scheduler started
+2025-04-04 02:22:17,683 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-04 02:22:18,580 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:22:18,581 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:22:18,581 - INFO - Scheduler started
+2025-04-04 02:23:37,807 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:23:37,807 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:23:37,808 - INFO - Scheduler started
+2025-04-04 02:23:37,818 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-04 02:23:38,693 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-04 02:23:38,693 - INFO - Added job "update_recommendations_job" to job store "default"
+2025-04-04 02:23:38,693 - INFO - Scheduler started
+2025-04-04 03:09:43,417 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-04 03:15:50,011 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:50,012 - ERROR - ['DA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:15:50,014 - WARNING - No data found for symbol: DA from yfinance
+2025-04-04 03:15:53,268 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALB?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALB&crumb=ECNNeUuZJI.
+2025-04-04 03:15:53,268 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:53,271 - ERROR - ['DALBHARA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:53,271 - ERROR - 
+3 Failed downloads:
+2025-04-04 03:15:53,271 - ERROR - ['DALB']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:53,273 - ERROR - ['DALBHARA', 'DALBHAR', 'DALBH']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:53,273 - ERROR - 
+4 Failed downloads:
+2025-04-04 03:15:53,277 - WARNING - No data found for symbol: DALBH from yfinance
+2025-04-04 03:15:53,278 - ERROR - ['DALB']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:53,278 - ERROR - 
+4 Failed downloads:
+2025-04-04 03:15:53,279 - ERROR - ['DALBHARA', 'DALBHAR', 'DALBH']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:53,279 - ERROR - 
+4 Failed downloads:
+2025-04-04 03:15:53,285 - WARNING - No data found for symbol: DALBHA from yfinance
+2025-04-04 03:15:53,285 - ERROR - ['DALBHARA', 'DALBHAR', 'DALBH']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:53,285 - ERROR - ['DALB']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:53,286 - ERROR - ['DALBHARA', 'DALBHAR', 'DALBH']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:53,289 - ERROR - ['DALB']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:53,291 - WARNING - No data found for symbol: DALBHARA from yfinance
+2025-04-04 03:15:53,291 - ERROR - ['DALB']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:53,293 - WARNING - No data found for symbol: DALB from yfinance
+2025-04-04 03:15:53,295 - WARNING - No data found for symbol: DALBHAR from yfinance
+2025-04-04 03:15:54,200 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALB?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALB&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,200 - ERROR - Error fetching company overview for DALB: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:54,215 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBH?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBH&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,215 - ERROR - Error fetching company overview for DALBH: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:54,216 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHAR?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHAR&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,216 - ERROR - Error fetching company overview for DALBHAR: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:54,217 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHA&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,220 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:54,220 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:54,220 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHA&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,221 - ERROR - ['DALBHA']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:54,221 - ERROR - ['DALBHA']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-04 03:15:54,221 - ERROR - Error fetching company overview for DALBHA: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:54,224 - WARNING - No data found for symbol: DALBHARAT from yfinance
+2025-04-04 03:15:54,225 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARA&crumb=ECNNeUuZJI.
+2025-04-04 03:15:54,226 - WARNING - No data found for symbol: DALBHARAT. from yfinance
+2025-04-04 03:15:54,227 - ERROR - Error fetching company overview for DALBHARA: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:55,802 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT&crumb=ECNNeUuZJI.
+2025-04-04 03:15:55,803 - ERROR - Error fetching company overview for DALBHARAT: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:55,815 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:55,815 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:55,815 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:55,818 - WARNING - No data found for symbol: DALBHARAT.NS from yfinance
+2025-04-04 03:15:55,818 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:55,819 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:55,821 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:55,822 - WARNING - No data found for symbol: DALBHARAT.NSE from yfinance
+2025-04-04 03:15:55,825 - WARNING - No data found for symbol: DALBHARAT.N from yfinance
+2025-04-04 03:15:57,556 - ERROR - 
+1 Failed download:
+2025-04-04 03:15:57,556 - ERROR - ['DALBHARAT.NSE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:15:57,557 - WARNING - No data found for symbol: DALBHARAT.NSE from yfinance
+2025-04-04 03:15:58,231 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.NSE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.NSE&crumb=ECNNeUuZJI.
+2025-04-04 03:15:58,231 - ERROR - Error fetching company overview for DALBHARAT.NSE: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:58,281 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.N&crumb=ECNNeUuZJI.
+2025-04-04 03:15:58,282 - ERROR - Error fetching company overview for DALBHARAT.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:15:59,773 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.NSE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.NSE&crumb=ECNNeUuZJI.
+2025-04-04 03:15:59,773 - ERROR - Error fetching company overview for DALBHARAT.NSE: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:54,377 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:54,377 - ERROR - ['DALBHARAT.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:54,380 - WARNING - No data found for symbol: DALBHARAT.N from yfinance
+2025-04-04 03:17:54,516 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:54,516 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:54,520 - WARNING - No data found for symbol: DALBHARAT. from yfinance
+2025-04-04 03:17:54,681 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:54,682 - ERROR - ['DALBHARAT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:54,685 - WARNING - No data found for symbol: DALBHARAT from yfinance
+2025-04-04 03:17:54,850 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:54,851 - ERROR - ['DALBHARA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:54,854 - WARNING - No data found for symbol: DALBHARA from yfinance
+2025-04-04 03:17:55,030 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:55,030 - ERROR - ['DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:55,033 - WARNING - No data found for symbol: DALBHAR from yfinance
+2025-04-04 03:17:55,183 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:55,184 - ERROR - ['DALBHA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:55,187 - WARNING - No data found for symbol: DALBHA from yfinance
+2025-04-04 03:17:55,971 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.N&crumb=ECNNeUuZJI.
+2025-04-04 03:17:55,973 - ERROR - Error fetching company overview for DALBHARAT.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:55,993 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:55,994 - ERROR - ['DALBH']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:55,997 - WARNING - No data found for symbol: DALBH from yfinance
+2025-04-04 03:17:57,195 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT&crumb=ECNNeUuZJI.
+2025-04-04 03:17:57,197 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHA&crumb=ECNNeUuZJI.
+2025-04-04 03:17:57,197 - ERROR - Error fetching company overview for DALBHARAT: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:57,198 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARA&crumb=ECNNeUuZJI.
+2025-04-04 03:17:57,198 - ERROR - Error fetching company overview for DALBHA: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:57,199 - ERROR - Error fetching company overview for DALBHARA: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:57,216 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:57,216 - ERROR - ['DALB']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:57,219 - WARNING - No data found for symbol: DA from yfinance
+2025-04-04 03:17:57,219 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:57,219 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:57,219 - ERROR - ['DALB']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:57,219 - ERROR - ['DALB']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:17:57,221 - WARNING - No data found for symbol: DAL from yfinance
+2025-04-04 03:17:57,223 - WARNING - No data found for symbol: DALB from yfinance
+2025-04-04 03:17:57,242 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHAR?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHAR&crumb=ECNNeUuZJI.
+2025-04-04 03:17:57,242 - ERROR - Error fetching company overview for DALBHAR: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:57,993 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBH?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBH&crumb=ECNNeUuZJI.
+2025-04-04 03:17:57,994 - ERROR - Error fetching company overview for DALBH: 'NoneType' object has no attribute 'update'
+2025-04-04 03:17:58,004 - ERROR - 
+1 Failed download:
+2025-04-04 03:17:58,004 - ERROR - ['DA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:17:58,007 - WARNING - No data found for symbol: D from yfinance
+2025-04-04 03:17:58,820 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALB?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALB&crumb=ECNNeUuZJI.
+2025-04-04 03:17:58,821 - ERROR - Error fetching company overview for DALB: 'NoneType' object has no attribute 'update'
+2025-04-04 03:18:01,717 - ERROR - 
+1 Failed download:
+2025-04-04 03:18:01,718 - ERROR - ['GOO']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:18:01,718 - ERROR - 
+1 Failed download:
+2025-04-04 03:18:01,722 - WARNING - No data found for symbol: GOO from yfinance
+2025-04-04 03:18:01,723 - ERROR - ['GOO']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:18:01,723 - ERROR - 
+1 Failed download:
+2025-04-04 03:18:01,734 - WARNING - No data found for symbol: G from yfinance
+2025-04-04 03:18:01,734 - ERROR - ['GOO']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:18:01,744 - ERROR - Error fetching stock data for GO: Length mismatch: Expected axis has 9 elements, new values have 5 elements
+2025-04-04 03:20:26,864 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:26,865 - ERROR - ['GOO']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:26,871 - WARNING - No data found for symbol: GOO from yfinance
+2025-04-04 03:20:32,849 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:32,849 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:32,851 - WARNING - No data found for symbol: REL from yfinance
+2025-04-04 03:20:32,852 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:32,852 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:32,853 - WARNING - No data found for symbol: RELI from yfinance
+2025-04-04 03:20:33,686 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RE&crumb=ECNNeUuZJI.
+2025-04-04 03:20:33,686 - ERROR - Error fetching company overview for RE: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:35,549 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:35,549 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:35,552 - WARNING - No data found for symbol: RELI.N from yfinance
+2025-04-04 03:20:35,552 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:35,552 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:35,552 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:35,552 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:35,554 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:35,555 - WARNING - No data found for symbol: RELI. from yfinance
+2025-04-04 03:20:37,128 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.N&crumb=ECNNeUuZJI.
+2025-04-04 03:20:37,128 - ERROR - Error fetching company overview for RELI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:37,129 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.&crumb=ECNNeUuZJI.
+2025-04-04 03:20:37,129 - ERROR - Error fetching company overview for RELI.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:38,595 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:38,595 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:38,597 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:42,040 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:42,040 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:42,044 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:43,255 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:43,255 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:43,259 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:43,829 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:43,830 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:43,833 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:44,018 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:44,018 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:44,022 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:44,202 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:44,202 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:20:44,206 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 03:20:46,971 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:46,972 - ERROR - ['RELI.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:46,975 - WARNING - No data found for symbol: RELI.N from yfinance
+2025-04-04 03:20:47,742 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:47,742 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:47,742 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:47,742 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:47,744 - WARNING - No data found for symbol: RELI. from yfinance
+2025-04-04 03:20:47,744 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:47,744 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:47,745 - WARNING - No data found for symbol: RELI from yfinance
+2025-04-04 03:20:47,746 - WARNING - No data found for symbol: REL from yfinance
+2025-04-04 03:20:47,849 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.N&crumb=ECNNeUuZJI.
+2025-04-04 03:20:47,849 - ERROR - Error fetching company overview for RELI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:48,799 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.&crumb=ECNNeUuZJI.
+2025-04-04 03:20:48,799 - ERROR - Error fetching company overview for RELI.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:53,647 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:53,647 - ERROR - ['REL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:53,650 - WARNING - No data found for symbol: REL. from yfinance
+2025-04-04 03:20:53,650 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:53,650 - ERROR - 
+1 Failed download:
+2025-04-04 03:20:53,651 - ERROR - ['REL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:53,651 - ERROR - ['REL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:20:53,653 - WARNING - No data found for symbol: REL.NS from yfinance
+2025-04-04 03:20:53,655 - WARNING - No data found for symbol: REL.N from yfinance
+2025-04-04 03:20:55,686 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/REL.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=REL.NS&crumb=ECNNeUuZJI.
+2025-04-04 03:20:55,686 - ERROR - Error fetching company overview for REL.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:55,694 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/REL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=REL.&crumb=ECNNeUuZJI.
+2025-04-04 03:20:55,694 - ERROR - Error fetching company overview for REL.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:20:55,699 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/REL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=REL.N&crumb=ECNNeUuZJI.
+2025-04-04 03:20:55,699 - ERROR - Error fetching company overview for REL.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:01,442 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:01,442 - ERROR - ['RL.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:01,444 - WARNING - No data found for symbol: RL.NS from yfinance
+2025-04-04 03:21:01,449 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:01,449 - ERROR - ['RL.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:01,450 - WARNING - No data found for symbol: RIL.NS from yfinance
+2025-04-04 03:21:03,314 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:03,314 - ERROR - ['RIL.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:03,315 - WARNING - No data found for symbol: RIL.NS from yfinance
+2025-04-04 03:21:03,410 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RL.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RL.NS&crumb=ECNNeUuZJI.
+2025-04-04 03:21:03,410 - ERROR - Error fetching company overview for RL.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:03,412 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RIL.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RIL.NS&crumb=ECNNeUuZJI.
+2025-04-04 03:21:03,412 - ERROR - Error fetching company overview for RIL.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:04,251 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RIL.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RIL.NS&crumb=ECNNeUuZJI.
+2025-04-04 03:21:04,251 - ERROR - Error fetching company overview for RIL.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:06,113 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:06,113 - ERROR - ['RIL.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:06,119 - WARNING - No data found for symbol: RIL.NS from yfinance
+2025-04-04 03:21:07,398 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RIL.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RIL.NS&crumb=ECNNeUuZJI.
+2025-04-04 03:21:07,398 - ERROR - Error fetching company overview for RIL.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:10,155 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:10,155 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:10,155 - ERROR - ['RIL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:10,155 - ERROR - ['RIL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:10,157 - WARNING - No data found for symbol: R from yfinance
+2025-04-04 03:21:10,158 - WARNING - No data found for symbol: RIL from yfinance
+2025-04-04 03:21:10,163 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:10,163 - ERROR - ['RIL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:10,165 - WARNING - No data found for symbol: RIL.N from yfinance
+2025-04-04 03:21:10,166 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:10,166 - ERROR - ['RIL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:10,167 - WARNING - No data found for symbol: RIL. from yfinance
+2025-04-04 03:21:10,167 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:10,167 - ERROR - ['RIL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:10,168 - WARNING - No data found for symbol: RI from yfinance
+2025-04-04 03:21:12,879 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RIL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RIL.N&crumb=ECNNeUuZJI.
+2025-04-04 03:21:12,880 - ERROR - Error fetching company overview for RIL.N: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:12,882 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RIL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RIL.&crumb=ECNNeUuZJI.
+2025-04-04 03:21:12,883 - ERROR - Error fetching company overview for RIL.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:21:29,855 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:29,857 - ERROR - ['RELIANCE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:29,858 - WARNING - No data found for symbol: RELIANCE from yfinance
+2025-04-04 03:21:31,265 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:31,265 - ERROR - ['RELIANCE.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:31,267 - WARNING - No data found for symbol: RELIANCE. from yfinance
+2025-04-04 03:21:31,269 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:31,269 - ERROR - 
+1 Failed download:
+2025-04-04 03:21:31,269 - ERROR - ['RELIANCE.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:31,269 - ERROR - ['RELIANCE.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:21:31,271 - WARNING - No data found for symbol: RELIANCE.N from yfinance
+2025-04-04 03:21:31,272 - WARNING - No data found for symbol: RELIANCE.NS from yfinance
+2025-04-04 03:21:32,899 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELIANCE.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELIANCE.&crumb=ECNNeUuZJI.
+2025-04-04 03:21:32,900 - ERROR - Error fetching company overview for RELIANCE.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:23:54,248 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:54,249 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:54,249 - ERROR - ['VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:23:54,249 - ERROR - ['VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:23:54,253 - WARNING - No data found for symbol: ve from yfinance
+2025-04-04 03:23:54,257 - WARNING - No data found for symbol: ved from yfinance
+2025-04-04 03:23:56,325 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:56,326 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:56,326 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:56,326 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:56,326 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:56,330 - WARNING - No data found for symbol: vedl.ns from yfinance
+2025-04-04 03:23:56,330 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:56,330 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:56,333 - WARNING - No data found for symbol: vedl from yfinance
+2025-04-04 03:23:56,334 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:56,336 - WARNING - No data found for symbol: vedl. from yfinance
+2025-04-04 03:23:56,338 - WARNING - No data found for symbol: vedl.n from yfinance
+2025-04-04 03:23:58,190 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:58,191 - ERROR - ['VEDL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:58,194 - WARNING - No data found for symbol: vedl.n from yfinance
+2025-04-04 03:23:58,322 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:58,322 - ERROR - ['VEDL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:58,324 - WARNING - No data found for symbol: vedl. from yfinance
+2025-04-04 03:23:58,584 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.&crumb=ECNNeUuZJI.
+2025-04-04 03:23:58,585 - ERROR - Error fetching company overview for vedl.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:23:58,600 - ERROR - 
+1 Failed download:
+2025-04-04 03:23:58,600 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:23:58,602 - WARNING - No data found for symbol: vedl from yfinance
+2025-04-04 03:23:58,638 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.N&crumb=ECNNeUuZJI.
+2025-04-04 03:23:58,638 - ERROR - Error fetching company overview for vedl.n: 'NoneType' object has no attribute 'update'
+2025-04-04 03:23:59,805 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.N&crumb=ECNNeUuZJI.
+2025-04-04 03:23:59,805 - ERROR - Error fetching company overview for vedl.n: 'NoneType' object has no attribute 'update'
+2025-04-04 03:23:59,859 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.&crumb=ECNNeUuZJI.
+2025-04-04 03:23:59,860 - ERROR - Error fetching company overview for vedl.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:23:59,863 - ERROR - 
+2 Failed downloads:
+2025-04-04 03:23:59,863 - ERROR - ['VE', 'VED']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:23:59,865 - WARNING - No data found for symbol: ve from yfinance
+2025-04-04 03:23:59,866 - ERROR - 
+2 Failed downloads:
+2025-04-04 03:23:59,866 - ERROR - 
+2 Failed downloads:
+2025-04-04 03:23:59,866 - ERROR - ['VE', 'VED']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:23:59,866 - ERROR - ['VE', 'VED']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:23:59,868 - WARNING - No data found for symbol: v from yfinance
+2025-04-04 03:23:59,870 - WARNING - No data found for symbol: ved from yfinance
+2025-04-04 03:24:00,265 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:00,266 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:00,266 - ERROR - ['VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:24:00,266 - ERROR - ['VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:24:00,269 - WARNING - No data found for symbol: VE from yfinance
+2025-04-04 03:24:00,271 - WARNING - No data found for symbol: V from yfinance
+2025-04-04 03:24:00,447 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:00,447 - ERROR - ['VED']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 03:24:00,450 - WARNING - No data found for symbol: VED from yfinance
+2025-04-04 03:24:00,664 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:00,664 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:24:00,667 - WARNING - No data found for symbol: VEDL from yfinance
+2025-04-04 03:24:01,068 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:01,068 - ERROR - ['VEDL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:24:01,072 - WARNING - No data found for symbol: VEDL. from yfinance
+2025-04-04 03:24:02,118 - ERROR - 
+1 Failed download:
+2025-04-04 03:24:02,118 - ERROR - ['VEDL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 03:24:02,121 - WARNING - No data found for symbol: VEDL.N from yfinance
+2025-04-04 03:24:02,579 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.&crumb=ECNNeUuZJI.
+2025-04-04 03:24:02,587 - ERROR - Error fetching company overview for VEDL.: 'NoneType' object has no attribute 'update'
+2025-04-04 03:24:03,528 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.N&crumb=ECNNeUuZJI.
+2025-04-04 03:24:03,528 - ERROR - Error fetching company overview for VEDL.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:36,411 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:36,412 - ERROR - ['VEDL.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:36,416 - WARNING - No data found for symbol: VEDL.N from yfinance
+2025-04-04 05:36:36,580 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:36,581 - ERROR - ['VEDL.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:36,584 - WARNING - No data found for symbol: VEDL. from yfinance
+2025-04-04 05:36:36,751 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:36,751 - ERROR - ['VEDL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:36,754 - WARNING - No data found for symbol: VEDL from yfinance
+2025-04-04 05:36:38,129 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.N&crumb=ECNNeUuZJI.
+2025-04-04 05:36:38,129 - ERROR - Error fetching company overview for VEDL.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:38,136 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:38,136 - ERROR - ['VED']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:38,141 - WARNING - No data found for symbol: VED from yfinance
+2025-04-04 05:36:38,143 - ERROR - 
+2 Failed downloads:
+2025-04-04 05:36:38,144 - ERROR - ['VED', 'VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:38,144 - ERROR - 
+2 Failed downloads:
+2025-04-04 05:36:38,146 - WARNING - No data found for symbol: V from yfinance
+2025-04-04 05:36:38,146 - ERROR - ['VED', 'VE']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:38,148 - WARNING - No data found for symbol: VE from yfinance
+2025-04-04 05:36:39,316 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/VEDL.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=VEDL.&crumb=ECNNeUuZJI.
+2025-04-04 05:36:39,316 - ERROR - Error fetching company overview for VEDL.: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:42,220 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:42,220 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:42,221 - WARNING - No data found for symbol: RE from yfinance
+2025-04-04 05:36:43,445 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RE&crumb=ECNNeUuZJI.
+2025-04-04 05:36:43,445 - ERROR - Error fetching company overview for RE: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:43,456 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:43,456 - ERROR - ['REL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:43,458 - WARNING - No data found for symbol: REL from yfinance
+2025-04-04 05:36:43,461 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:43,461 - ERROR - ['REL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:43,463 - WARNING - No data found for symbol: RELI from yfinance
+2025-04-04 05:36:43,605 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:43,606 - ERROR - ['RELI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:43,607 - WARNING - No data found for symbol: RELI. from yfinance
+2025-04-04 05:36:44,642 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.&crumb=ECNNeUuZJI.
+2025-04-04 05:36:44,642 - ERROR - Error fetching company overview for RELI.: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:44,729 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:44,729 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:44,732 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 05:36:44,735 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:44,735 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:44,737 - WARNING - No data found for symbol: RELI.N from yfinance
+2025-04-04 05:36:45,528 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.N&crumb=ECNNeUuZJI.
+2025-04-04 05:36:45,529 - ERROR - Error fetching company overview for RELI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:52,300 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:52,300 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:52,304 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 05:36:53,277 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:53,277 - ERROR - ['RELI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:53,281 - WARNING - No data found for symbol: RELI.NS from yfinance
+2025-04-04 05:36:55,528 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:55,528 - ERROR - ['RELI.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:55,532 - WARNING - No data found for symbol: RELI.N from yfinance
+2025-04-04 05:36:56,378 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:56,378 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:56,380 - WARNING - No data found for symbol: REL from yfinance
+2025-04-04 05:36:56,380 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:56,381 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:56,382 - WARNING - No data found for symbol: RELI. from yfinance
+2025-04-04 05:36:56,383 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:56,383 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:56,385 - WARNING - No data found for symbol: RELI from yfinance
+2025-04-04 05:36:56,388 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:56,388 - ERROR - ['RE']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:36:56,390 - WARNING - No data found for symbol: RE from yfinance
+2025-04-04 05:36:56,778 - ERROR - 
+1 Failed download:
+2025-04-04 05:36:56,778 - ERROR - ['REL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 05:36:56,780 - WARNING - No data found for symbol: R from yfinance
+2025-04-04 05:36:56,840 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.N&crumb=ECNNeUuZJI.
+2025-04-04 05:36:56,840 - ERROR - Error fetching company overview for RELI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:57,932 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RELI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RELI.&crumb=ECNNeUuZJI.
+2025-04-04 05:36:57,932 - ERROR - Error fetching company overview for RELI.: 'NoneType' object has no attribute 'update'
+2025-04-04 05:36:57,936 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/RE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=RE&crumb=ECNNeUuZJI.
+2025-04-04 05:36:57,936 - ERROR - Error fetching company overview for RE: 'NoneType' object has no attribute 'update'
+2025-04-04 05:37:02,852 - ERROR - 
+1 Failed download:
+2025-04-04 05:37:02,852 - ERROR - ['SBI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:37:02,853 - WARNING - No data found for symbol: SBI. from yfinance
+2025-04-04 05:37:03,664 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SBI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SBI.&crumb=ECNNeUuZJI.
+2025-04-04 05:37:03,664 - ERROR - Error fetching company overview for SBI.: 'NoneType' object has no attribute 'update'
+2025-04-04 05:37:06,431 - ERROR - 
+1 Failed download:
+2025-04-04 05:37:06,432 - ERROR - ['SBI.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:37:06,434 - ERROR - 
+1 Failed download:
+2025-04-04 05:37:06,434 - WARNING - No data found for symbol: SBI.N from yfinance
+2025-04-04 05:37:06,434 - ERROR - ['SBI.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:37:06,437 - WARNING - No data found for symbol: SBI.NS from yfinance
+2025-04-04 05:37:07,267 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SBI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SBI.N&crumb=ECNNeUuZJI.
+2025-04-04 05:37:07,267 - ERROR - Error fetching company overview for SBI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:37:08,629 - ERROR - 
+1 Failed download:
+2025-04-04 05:37:08,629 - ERROR - ['SBI.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:37:08,632 - WARNING - No data found for symbol: SBI.N from yfinance
+2025-04-04 05:37:09,098 - ERROR - 
+1 Failed download:
+2025-04-04 05:37:09,098 - ERROR - ['SBI.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 05:37:09,101 - WARNING - No data found for symbol: SBI. from yfinance
+2025-04-04 05:37:09,585 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SBI.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SBI.N&crumb=ECNNeUuZJI.
+2025-04-04 05:37:09,585 - ERROR - Error fetching company overview for SBI.N: 'NoneType' object has no attribute 'update'
+2025-04-04 05:37:10,929 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SBI.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SBI.&crumb=ECNNeUuZJI.
+2025-04-04 05:37:10,930 - ERROR - Error fetching company overview for SBI.: 'NoneType' object has no attribute 'update'
+2025-04-04 06:24:17,286 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-04 08:58:39,760 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-04 09:04:02,769 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,769 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,769 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,769 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,769 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,769 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,770 - ERROR - 
+3 Failed downloads:
+2025-04-04 09:04:02,770 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,770 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,770 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,771 - WARNING - No data found for symbol: DALBHAR from yfinance
+2025-04-04 09:04:02,772 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,772 - ERROR - ['DALBHARA', 'DALBHA', 'DALBHAR']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:02,773 - WARNING - No data found for symbol: DALBHARAT.N from yfinance
+2025-04-04 09:04:02,774 - WARNING - No data found for symbol: DALBHARAT. from yfinance
+2025-04-04 09:04:02,775 - WARNING - No data found for symbol: DALBHARA from yfinance
+2025-04-04 09:04:02,777 - WARNING - No data found for symbol: DALBHA from yfinance
+2025-04-04 09:04:02,778 - WARNING - No data found for symbol: DALBHARAT from yfinance
+2025-04-04 09:04:04,343 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.N&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,682 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,682 - ERROR - Error fetching company overview for DALBHARA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:05,688 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,688 - ERROR - Error fetching company overview for DALBHARAT: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:05,690 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHAR?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHAR&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,690 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHARAT.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHARAT.N&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,690 - ERROR - Error fetching company overview for DALBHAR: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:05,691 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBHA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBHA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:05,692 - ERROR - Error fetching company overview for DALBHARAT.N: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:05,693 - ERROR - Error fetching company overview for DALBHA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:05,718 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,718 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,719 - WARNING - No data found for symbol: DALB from yfinance
+2025-04-04 09:04:05,720 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,720 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,720 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,720 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,722 - WARNING - No data found for symbol: DAL from yfinance
+2025-04-04 09:04:05,723 - WARNING - No data found for symbol: G from yfinance
+2025-04-04 09:04:05,723 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,724 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,725 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,726 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:05,726 - WARNING - No data found for symbol: DA from yfinance
+2025-04-04 09:04:05,726 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,726 - ERROR - ['DALBHARAT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:05,728 - WARNING - No data found for symbol: D from yfinance
+2025-04-04 09:04:05,729 - WARNING - No data found for symbol: DALBH from yfinance
+2025-04-04 09:04:05,836 - WARNING - Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-04 09:04:05,852 - WARNING - Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-04 09:04:06,992 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALBH?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALBH&crumb=ECNNeUuZJI.
+2025-04-04 09:04:06,993 - ERROR - Error fetching company overview for DALBH: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:07,124 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:07,124 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:07,124 - ERROR - ['GA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 09:04:07,124 - ERROR - ['GA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 09:04:07,126 - WARNING - No data found for symbol: GAL from yfinance
+2025-04-04 09:04:07,126 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:07,127 - WARNING - No data found for symbol: GALAND from yfinance
+2025-04-04 09:04:07,127 - ERROR - ['GA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 09:04:07,129 - WARNING - No data found for symbol: GALA from yfinance
+2025-04-04 09:04:07,131 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:07,131 - ERROR - ['GA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 09:04:07,132 - WARNING - No data found for symbol: GALAN from yfinance
+2025-04-04 09:04:07,133 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:07,133 - ERROR - ['GA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-01-01 -> 2025-04-04)')
+2025-04-04 09:04:07,134 - WARNING - No data found for symbol: GA from yfinance
+2025-04-04 09:04:07,223 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/DALB?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=DALB&crumb=ECNNeUuZJI.
+2025-04-04 09:04:07,223 - ERROR - Error fetching company overview for DALB: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:08,369 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:08,369 - ERROR - ['GALA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:08,371 - WARNING - No data found for symbol: GALAND. from yfinance
+2025-04-04 09:04:09,277 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALAND?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALAND&crumb=ECNNeUuZJI.
+2025-04-04 09:04:09,278 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:09,278 - ERROR - Error fetching company overview for GALAND: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:09,278 - ERROR - Error fetching company overview for GALA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:09,289 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALAN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALAN&crumb=ECNNeUuZJI.
+2025-04-04 09:04:09,289 - ERROR - Error fetching company overview for GALAN: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:09,297 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:09,297 - ERROR - ['GALA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:09,298 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:09,299 - WARNING - No data found for symbol: GALAND from yfinance
+2025-04-04 09:04:09,299 - ERROR - ['GALA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:09,300 - WARNING - No data found for symbol: GALAN from yfinance
+2025-04-04 09:04:09,304 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:09,304 - ERROR - ['GALA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:09,305 - WARNING - No data found for symbol: GALA from yfinance
+2025-04-04 09:04:10,348 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALAND.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALAND.&crumb=ECNNeUuZJI.
+2025-04-04 09:04:10,348 - ERROR - Error fetching company overview for GALAND.: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:11,200 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:11,200 - ERROR - Error fetching company overview for GALA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:11,202 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALAND?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALAND&crumb=ECNNeUuZJI.
+2025-04-04 09:04:11,202 - ERROR - Error fetching company overview for GALAND: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:11,207 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALAN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALAN&crumb=ECNNeUuZJI.
+2025-04-04 09:04:11,208 - ERROR - Error fetching company overview for GALAN: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:12,439 - WARNING - Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-04 09:04:13,646 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:13,646 - ERROR - Error fetching company overview for GALLA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:13,649 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALL&crumb=ECNNeUuZJI.
+2025-04-04 09:04:13,650 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLAN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLAN&crumb=ECNNeUuZJI.
+2025-04-04 09:04:13,650 - ERROR - Error fetching company overview for GALL: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:13,653 - ERROR - Error fetching company overview for GALLAN: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:13,657 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLAN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLAN&crumb=ECNNeUuZJI.
+2025-04-04 09:04:13,657 - ERROR - Error fetching company overview for GALLAN: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:13,657 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLAND?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLAND&crumb=ECNNeUuZJI.
+2025-04-04 09:04:13,658 - ERROR - Error fetching company overview for GALLAND: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:14,457 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:14,457 - ERROR - ['GALLT.', 'GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:14,459 - WARNING - No data found for symbol: GALLT.\ from yfinance
+2025-04-04 09:04:14,460 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:14,460 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:14,460 - ERROR - ['GALLT.', 'GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:14,460 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:14,460 - ERROR - ['GALLT.', 'GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:14,462 - WARNING - No data found for symbol: GALLT from yfinance
+2025-04-04 09:04:14,462 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:14,463 - ERROR - ['GALLT.', 'GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:14,464 - WARNING - No data found for symbol: GALL from yfinance
+2025-04-04 09:04:14,465 - ERROR - ['GALLT.', 'GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:14,466 - WARNING - No data found for symbol: GALLA from yfinance
+2025-04-04 09:04:14,468 - WARNING - No data found for symbol: GALLT. from yfinance
+2025-04-04 09:04:15,275 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT.%5C?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT.%5C&crumb=ECNNeUuZJI.
+2025-04-04 09:04:15,275 - ERROR - Error fetching company overview for GALLT.\: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:15,276 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALL&crumb=ECNNeUuZJI.
+2025-04-04 09:04:15,276 - ERROR - Error fetching company overview for GALL: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:15,278 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:15,278 - ERROR - Error fetching company overview for GALLA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:15,278 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT&crumb=ECNNeUuZJI.
+2025-04-04 09:04:15,278 - ERROR - Error fetching company overview for GALLT: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:15,280 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT.&crumb=ECNNeUuZJI.
+2025-04-04 09:04:15,280 - ERROR - Error fetching company overview for GALLT.: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:15,307 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:15,307 - ERROR - ['GALLT.\\']: YFTzMissingError('$GALLT.\\: possibly delisted; no timezone found')
+2025-04-04 09:04:15,308 - WARNING - No data found for symbol: GALLT.\\ from yfinance
+2025-04-04 09:04:15,780 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:15,780 - ERROR - ['GALLT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:15,782 - WARNING - No data found for symbol: GALLT.\ from yfinance
+2025-04-04 09:04:15,787 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:15,787 - ERROR - ['GALLT.']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:15,789 - WARNING - No data found for symbol: GALLT. from yfinance
+2025-04-04 09:04:15,962 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:15,962 - ERROR - ['GALLT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:15,966 - WARNING - No data found for symbol: GALLT from yfinance
+2025-04-04 09:04:16,156 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:16,156 - ERROR - ['GALL']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:16,159 - WARNING - No data found for symbol: GALL from yfinance
+2025-04-04 09:04:17,213 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:17,213 - ERROR - ['GALLA']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:17,215 - WARNING - No data found for symbol: GALLA from yfinance
+2025-04-04 09:04:17,979 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALL&crumb=ECNNeUuZJI.
+2025-04-04 09:04:17,979 - ERROR - Error fetching company overview for GALL: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:17,982 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT.%5C?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT.%5C&crumb=ECNNeUuZJI.
+2025-04-04 09:04:17,983 - ERROR - Error fetching company overview for GALLT.\: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:17,983 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT.&crumb=ECNNeUuZJI.
+2025-04-04 09:04:17,985 - ERROR - Error fetching company overview for GALLT.: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:17,985 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT.%5C%5C?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT.%5C%5C&crumb=ECNNeUuZJI.
+2025-04-04 09:04:17,986 - ERROR - Error fetching company overview for GALLT.\\: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:18,002 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:18,002 - ERROR - ['GALLAN']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:18,004 - WARNING - No data found for symbol: GALLAN from yfinance
+2025-04-04 09:04:18,047 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLT&crumb=ECNNeUuZJI.
+2025-04-04 09:04:18,047 - ERROR - Error fetching company overview for GALLT: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:19,555 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLA&crumb=ECNNeUuZJI.
+2025-04-04 09:04:19,556 - ERROR - Error fetching company overview for GALLA: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:21,131 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:21,131 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:21,131 - ERROR - ['GALLANT.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:21,131 - ERROR - ['GALLANT.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:21,133 - WARNING - No data found for symbol: GALLANT.NS from yfinance
+2025-04-04 09:04:21,133 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:21,134 - WARNING - No data found for symbol: GALLANT.N from yfinance
+2025-04-04 09:04:21,135 - ERROR - ['GALLANT.N']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:21,138 - WARNING - No data found for symbol: GALLANT. from yfinance
+2025-04-04 09:04:21,139 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLAN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLAN&crumb=ECNNeUuZJI.
+2025-04-04 09:04:21,140 - ERROR - Error fetching company overview for GALLAN: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:21,141 - ERROR - 
+2 Failed downloads:
+2025-04-04 09:04:21,141 - ERROR - ['GALLANT.N', 'GALLANT']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:21,143 - WARNING - No data found for symbol: GALLANT from yfinance
+2025-04-04 09:04:22,643 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT.NS&crumb=ECNNeUuZJI.
+2025-04-04 09:04:22,644 - ERROR - Error fetching company overview for GALLANT.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:22,651 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:22,651 - ERROR - ['GALLANT.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:22,653 - WARNING - No data found for symbol: GALLANT.NS from yfinance
+2025-04-04 09:04:23,632 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT&crumb=ECNNeUuZJI.
+2025-04-04 09:04:23,632 - ERROR - Error fetching company overview for GALLANT: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:23,633 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT.N?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT.N&crumb=ECNNeUuZJI.
+2025-04-04 09:04:23,633 - ERROR - Error fetching company overview for GALLANT.N: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:23,634 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT.?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT.&crumb=ECNNeUuZJI.
+2025-04-04 09:04:23,634 - ERROR - Error fetching company overview for GALLANT.: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:24,684 - ERROR - 
+1 Failed download:
+2025-04-04 09:04:24,684 - ERROR - ['GALLANT.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2025-04-04 09:04:24,688 - WARNING - No data found for symbol: GALLANT.NS from yfinance
+2025-04-04 09:04:25,228 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT.NS&crumb=ECNNeUuZJI.
+2025-04-04 09:04:25,228 - ERROR - Error fetching company overview for GALLANT.NS: 'NoneType' object has no attribute 'update'
+2025-04-04 09:04:26,065 - ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GALLANT.NS?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GALLANT.NS&crumb=ECNNeUuZJI.
+2025-04-04 09:04:26,065 - ERROR - Error fetching company overview for GALLANT.NS: 'NoneType' object has no attribute 'update'
